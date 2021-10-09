@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import LandingPageContainer from './Components/LandingPageContainer/LandingPageContainer';
 
 const HelloWorld = () => {
     return (
         <h1>
-            Hello World
+           <LandingPageContainer content={'Landing Page'}></LandingPageContainer>
         </h1>
     );
 }
